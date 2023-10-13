@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(68, 173, 221);
+    padding-top: 0%;
+}
+
+#heading{
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.wform{
+    background-color: #fff;
+    width: 45%;
+    align-items: center;
+    margin-left: 365px;
+    padding-top: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group input, .form-group select {
+    width: calc(100% - 22px); /* Adjusted for padding */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+  
+.form-group button {
+    padding: 20px 30px;
+}
+
+.flast{
+    text-align: center;
+}
+
+.footer-bottom{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9999;
+}
+  
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+  
+.popup-content label {
+    display: block;
+    margin-bottom: 10px;
+}  

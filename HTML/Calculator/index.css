@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(153, 151, 151);
+}
+
+.calculator{
+  background-color: black;
+  width: 533px;;
+  height: 69.2dvh;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+
+.calculation {
+  width: 430px;
+  height: 100px;
+  float: left;
+  background-color: #fff;
+}
+
+.AC {
+  width: 103px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  background-color:  rgb(31, 189, 176);
+  color: #fff;
+}
+
+.numbers{
+  width: 430px;
+  float: left;
+  height: 346.5px;
+  background-color: rgb(37, 37, 37);
+}
+
+.symbols{
+  height: 346.5px;
+  width: 103px;
+  float: left;
+  background-color: rgb(117, 110, 110);
+}
+
+.calculator .calculation input {
+  width: 347px;
+  padding: 40px;
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.calculator .AC button {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 90%;
+  height: 34px;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding-top: 7px;
+  background-color: rgb(31, 189, 176);
+}
+
+.calculator .numbers .buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.calculator .numbers .buttons button{
+  width: 90%;
+  height: 70px;
+  font-size: 24px;
+  margin: 7px;
+  background-color: rgb(37, 37, 37);
+  color: aliceblue;
+}
+
+.calculator .symbols .buttons {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4px;
+}
+
+.calculator .symbols .buttons button{
+  width: 90%;
+  height: 70px;
+  font-size: 24px;
+  margin: 7px;
+  background-color: rgb(117, 110, 110);
+  color: aliceblue;
+}
